@@ -1,0 +1,82 @@
+.developer-card{
+  padding: 2em;
+  border: 1px solid #30363d;
+  display: flex;
+  justify-content: space-between;
+
+  .developer-meta{
+    display: inline-block;
+  }
+  .developer-data{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+
+    .developer-meta{
+      width: 65%;
+    }
+    .id{
+      color:#8b949e
+    }
+    .ant-avatar-image{
+      width: 3em;
+      height: 3em;
+      margin-right: 10px;
+    }
+    .developer-name{
+      color: #58a6ff;
+      font-size: 22px;
+      margin-bottom: 5px;
+      .anticon{
+        margin-right: 10px;
+      }
+    }
+    .developer-desc{
+      color:#8b949e
+    }
+
+  }
+
+  .developer-repo-container{
+    width: 40%;
+
+    .repo-type{
+      color:#8b949e;
+      .anticon{
+        color: #DB6D28;
+      }
+
+    }
+    .repo-name{
+      color:#58a6ff;
+      font-size: 18px;
+      .anticon{
+        color:#8b949e;
+      }
+    }
+    .repo-desc{
+      color:#8b949e;
+      font-size: 13px;
+    }
+  }
+
+  .developer-actions{
+ 
+    .ant-btn{
+      background: #161b22;
+      color: white;
+      border: 1px solid #30363d;
+      margin-left: 1em;
+      .anticon{
+      color:#db61a2
+
+      }
+    }
+  }
+
+
+  .meta-item{
+    margin-right: 10px;
+    color: #8b949e;
+  }
+}

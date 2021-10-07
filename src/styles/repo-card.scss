@@ -1,0 +1,58 @@
+.repo-card{
+  padding: 2em;
+  border: 1px solid #30363d;
+  display: flex;
+  justify-content: space-between;
+
+  .repo-data{
+    max-width: 75%;
+
+    .anticon-file{
+      color:#8b949e
+
+    }
+    .repo-name{
+      color: #58a6ff;
+      font-size: 22px;
+      .anticon{
+        margin-right: 10px;
+      }
+    }
+    .repo-desc{
+      color:#8b949e
+    }
+
+  }
+
+  .repo-actions{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .ant-btn{
+      margin-bottom: 10px;
+      width: 70%;
+      align-self: end;
+      background: #161b22;
+      color: white;
+      border: 1px solid #30363d;
+
+      .anticon{
+      color:#8b949e
+
+      }
+    }
+  }
+
+
+  .meta-item{
+    margin-right: 10px;
+    color: #8b949e;
+    font-size: 14px;
+    .ant-avatar-image{
+      width: 25px;
+      height: 25px;
+      margin-left: 5px;
+    }
+  }
+}
